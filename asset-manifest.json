@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio2/static/css/main.3ed8f69b.css",
+    "main.js": "/portfolio2/static/js/main.7eece6c8.js",
+    "static/media/main-dp.jpg": "/portfolio2/static/media/main-dp.4d020107f554808543be.jpg",
+    "static/media/music.gif": "/portfolio2/static/media/music.c3f47e1ba7e0520b35fa.gif",
+    "static/media/airplane.gif": "/portfolio2/static/media/airplane.7d602dbadb3d9374dfa4.gif",
+    "static/media/film-tape.gif": "/portfolio2/static/media/film-tape.871b4c05045208d61779.gif",
+    "static/media/camera.gif": "/portfolio2/static/media/camera.43357be32cd920a373e4.gif",
+    "static/media/coding.gif": "/portfolio2/static/media/coding.c9441098a16befb89dbd.gif",
+    "static/media/profile-img.jpg": "/portfolio2/static/media/profile-img.ade857bf0941e0edf4ba.jpg",
+    "static/media/pots.gif": "/portfolio2/static/media/pots.4851386fed1806732d1e.gif",
+    "static/media/books.gif": "/portfolio2/static/media/books.a5c1b9a1ef46e9cebf35.gif",
+    "static/media/strategy.gif": "/portfolio2/static/media/strategy.8a001969afab2ed49376.gif",
+    "static/media/abstract-shape.png": "/portfolio2/static/media/abstract-shape.b8ae36f22ba3950ab435.png",
+    "static/media/cube.png": "/portfolio2/static/media/cube.a7c3c9ede531bc9743ee.png",
+    "index.html": "/portfolio2/index.html",
+    "main.3ed8f69b.css.map": "/portfolio2/static/css/main.3ed8f69b.css.map",
+    "main.7eece6c8.js.map": "/portfolio2/static/js/main.7eece6c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ed8f69b.css",
+    "static/js/main.7eece6c8.js"
+  ]
+}
