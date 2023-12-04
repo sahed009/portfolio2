@@ -117,7 +117,7 @@ const Navbar = () => {
 			<div className="lg:hidden">
 				<button
 					onClick={toggleMobileMenu}
-					className="fixed top-4 left-4 bg-[#50C878] text-white rounded-md"
+					className="fixed z-50 top-4 left-4 bg-[#50C878] text-white rounded-md"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
