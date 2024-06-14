@@ -3,15 +3,16 @@ import Navbar from "../components/navbar";
 import Heroheader from "../components/heroheader";
 import Footer from "../components/footer";
 
+
 const home = () => {
 	return (
 		<div className="h-full bg-black text-white overflow-hidden">
 			<div className="relative">
-				<div className="absolute right-0 md:top-16 md:right-40 rounded-full p-10 animate-pulse ">
+				<div className="absolute right-0  rounded-full p-10 "  data-aos="fade-up">
 					<img
-						src={require("../assets/cube.png")}
+						src={require("../assets/logo sahed codes.png")}
 						alt=""
-						className="max-w-[48px]  h-auto"
+						className="max-w-[48px] md:max-w-[90px] lg:max-w-[150px] xl:max-w-[150px] h-auto rounded"
 					/>
 				</div>
 
@@ -28,7 +29,7 @@ const home = () => {
 				<Heroheader />
 			</div>
             
-			<hr className="border border-[#70C878] mt-20" />
+			
 			<Footer />
 		</div>
 	);

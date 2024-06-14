@@ -19,3 +19,7 @@
       font-family: "Dosis", system-ui, sans-serif;
     }
   }
+
+  body {
+    background: black;
+  }

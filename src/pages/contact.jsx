@@ -60,7 +60,7 @@ const ContactForm = () => {
 };
 
 const ContactFormCard = () => (
-	<div className="bg-[#191716] shadow-xl rounded-2xl p-6 md:p-12 border border-[#70C878]">
+	<div  data-aos="fade-right" className="bg-[#191716] shadow-xl rounded-2xl p-6 md:p-12 border border-[#70C878]">
 		<h2 className="text-3xl md:text-[45px] leading-none font-bold mb-4">
 			<span className="text-[#70C878]">Contact</span> Me
 		</h2>
@@ -78,7 +78,7 @@ const Contact = () => {
 	return (
 		<div className="h-full bg-black text-white">
 			<Navbar />
-			<div className="container px-4 lg:pl-24 mx-auto">
+			<div className="container pb-28 pt-10 lg:pl-24 mx-auto">
 				<div className="grid grid-cols-12 py-6 lg:gap-8">
 					<div className="col-span-12 lg:col-span-7 p-16 mb-4 lg:mb-0 ">
 						<div className="md:relative">
@@ -96,7 +96,6 @@ const Contact = () => {
 				</div>
 			</div>
 
-			<hr className="border border-[#70C878] mt-20" />
 			<Footer />
 		</div>
 	);

@@ -4,13 +4,14 @@ import Navbar from "../components/navbar";
 import Hobby from "../components/hobby";
 import Quotes from "../components/quotes";
 import Footer from "../components/footer";
+import CV from "../components/cv";
 
 const About = () => {
 	return (
 		<div className="h-full bg-black text-white overflow-hidden">
 			<Navbar />
 			<div className="container px-4 lg:pl-40 mx-auto py-20 lg:py-[60px] relative">
-				<h1 className="relative w-1/2 md:w-1/3">
+				<h1 data-aos="fade-right" className="relative w-1/2 md:w-1/3">
 					{" "}
 					<span className="text-6xl text-bold before:text-green-400 before:[''] before:absolute before:border-b-4 before:border-green-400 before:top-2 before:left-0 before:w-0 before:h-[100%] before:overflow-hidden before:text-7xl before:animate-animate">
 						<span className="text-[#70C878]">A</span>bout Me
@@ -21,7 +22,7 @@ const About = () => {
 						Contact
 					</button>
 				</Link>
-				<p className="text-2xl leading-10 mt-10">
+				<p  data-aos="fade-left" className="text-2xl leading-10 mt-10">
 					Hey there! <br /> I'm a computer science student from
 					Bangladesh, juggling books and freelance frontend
 					development gigs. I'm on a mission to make the web a cooler
@@ -35,9 +36,9 @@ const About = () => {
 					stopping by! 🚀
 				</p>
 			</div>
+            <CV />
 			<Hobby />
 			<Quotes />
-			<hr className="border border-[#70C878] mt-20" />
 			<Footer />
 		</div>
 	);

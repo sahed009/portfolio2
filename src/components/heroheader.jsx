@@ -58,14 +58,14 @@ const Heroheader = () => {
 	return (
 		<div className="h-full container px-4 lg:pl-40 mx-auto py-20 lg:py-[60px]">
 			<div className="grid grid-cols-12 gap-4">
-				<div className="col-span-12 lg:col-span-5 xl:col-span-4 mb-6 lg:mb-0">
+				<div data-aos="fade-up" className="col-span-12 lg:col-span-5 xl:col-span-4 mb-6 lg:mb-0">
 					<img
 						src={require("../assets/main-dp.jpg")}
 						alt=""
 						className="max-w-full h-auto border-[20px] border-[#50C878] shadow-2xl rounded-tl-[30px] rounded-br-[30px] rounded-tr-[30%] rounded-bl-[30%] mx-auto"
 					/>
 				</div>
-				<div className="col-span-12 lg:col-span-7 lg:pl-6 xl:pl-12">
+				<div data-aos="fade-down" className="col-span-12 lg:col-span-7 lg:pl-6 xl:pl-12">
 					<p className="text-xl leading-normal mb-2 opacity-50">
 						Frontend Developer
 					</p>

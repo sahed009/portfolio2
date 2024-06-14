@@ -18,8 +18,8 @@ const quotes = () => {
 							className="text-lg text-[#70C878] mr-4"
 						/>
 					</sup>{" "}
-					<p>The greatest glory in living lies not in never falling, but in rising every time we fall.</p>
-					<p className="text-end text-[#70C878]">- Nelson Mandela</p>
+					<p data-aos="zoom-in-left">The greatest glory in living lies not in never falling, but in rising every time we fall.</p>
+					<p data-aos="zoom-in-right" className="text-end text-[#70C878]">- Nelson Mandela</p>
 				</li>
                 <li className="my-4 flex flex-col justify-between">
 					<sup>
@@ -28,8 +28,8 @@ const quotes = () => {
 							className="text-lg text-[#70C878] mr-4"
 						/>
 					</sup>{" "}
-					<p>It is during our darkest moments that we must focus to see the light.</p>
-					<p className="text-end text-[#70C878]">- Aristotle</p>
+					<p data-aos="zoom-in-left">It is during our darkest moments that we must focus to see the light.</p>
+					<p data-aos="zoom-in-right" className="text-end text-[#70C878]">- Aristotle</p>
 				</li>
                 <li className="my-4 flex flex-col justify-between">
 					<sup>
@@ -38,8 +38,8 @@ const quotes = () => {
 							className="text-lg text-[#70C878] mr-4"
 						/>
 					</sup>{" "}
-					<p>In three words I can sum up everything I've learned about life: it goes on.</p>
-					<p className="text-end text-[#70C878]">- Robert Frost</p>
+					<p data-aos="zoom-in-left">In three words I can sum up everything I've learned about life: it goes on.</p>
+					<p  data-aos="zoom-in-right" className="text-end text-[#70C878]">- Robert Frost</p>
 				</li>
                 <li className="my-4 flex flex-col justify-between">
 					<sup>
@@ -48,8 +48,8 @@ const quotes = () => {
 							className="text-lg text-[#70C878] mr-4"
 						/>
 					</sup>{" "}
-					<p>I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.</p>
-					<p className="text-end text-[#70C878]">- Maya Angelou</p>
+					<p data-aos="zoom-in-left">I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.</p>
+					<p data-aos="zoom-in-right" className="text-end text-[#70C878]">- Maya Angelou</p>
 				</li>
                 <li className="my-4 flex flex-col justify-between">
 					<sup>
@@ -58,8 +58,8 @@ const quotes = () => {
 							className="text-lg text-[#70C878] mr-4"
 						/>
 					</sup>{" "}
-					<p>It is better to be hated for what you are than to be loved for what you are not.</p>
-					<p className="text-end text-[#70C878]">- Andre Gide</p>
+					<p data-aos="zoom-in-left">It is better to be hated for what you are than to be loved for what you are not.</p>
+					<p data-aos="zoom-in-right" className="text-end text-[#70C878]">- Andre Gide</p>
 				</li>
 			</ul>
 		</div>

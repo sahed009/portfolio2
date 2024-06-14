@@ -9,11 +9,11 @@ const Navbar = () => {
 	};
 	return (
 		<>
-			<div className="hidden lg:flex flex-col justify-center items-center bg-[#50C878] w-20 h-screen py-16 text-white fixed transition-all duration-200 z-20">
+			<div data-aos="fade-right" className="hidden lg:flex flex-col justify-center items-center bg-[#50C878] w-20 h-screen py-16 text-white fixed transition-all duration-200 z-20">
 				<Link
 					to="/"
 					className="group  flex items-center justify-center
-                 px-4 py-2 text-center hover:shadow-lg rounded-md hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50 absolute top-[14%] left-4"
+                 px-4 py-2 text-center hover:shadow-lg rounded-md  hover:shadow-green-700 transition-all duration-500 hover:bg-opacity-50 absolute top-[14%] left-4"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
